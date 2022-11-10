@@ -1,0 +1,402 @@
+
+/* HEADER */
+.logo{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin-top: 8px;
+}
+
+.navHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(235, 53, 159);
+    height: 150px;
+    align-items: center;
+    border: 10px solid rgb(227, 238, 234);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600px;
+}
+
+.categoria{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 800px;
+    align-items: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    transition: all 0.9.s;
+}
+
+.subCategoria{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.categoria :hover{
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.cart{
+    color: black;
+}
+
+/* FOOTER */
+.navFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(235, 53, 159);
+    border: 10px solid rgb(227, 238, 234);
+    height: 90px;
+}
+
+.redFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}    
+
+.redFooter a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+.redFooter a:hover {
+    transform: scale(1.2);
+  }
+
+.facebook{
+    background-color: blue;
+    margin-right: 50px;
+}
+
+.instagram{
+    background-color: violet;
+    margin-right: 50px;
+}
+
+.twitter{
+    background-color: lightblue;
+    margin-right: 50px;
+}
+
+/* MAIN */
+
+/* ITEM COUNT */
+.count{
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 20px;
+}
+.botonAdd{
+    margin-left: 145px;
+    margin-top: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(196, 83, 83);
+}
+
+.botonRes{
+    width: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: rgb(196, 83, 83);
+}
+
+.contador{
+    margin-left: 170px;
+}
+
+.onAdd{
+    margin-left: 180px;
+    border-radius: 20px;
+    background-color: rgb(196, 83, 83);
+    margin-left: 145px;
+    font-family: 'Bebas Neue', cursive;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* CART WIDGET */
+.widget{
+   margin-bottom: 1px;
+   margin-inline-end: 12px;
+   color: black;
+}
+
+.span{
+    color: black;
+    list-style-type: none;
+    text-transform: none;
+    text-decoration: none;
+}
+
+/* ITEM LIST CONTAINER */
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* CARD */
+.carta{
+    background-color: rgb(245, 158, 173);
+    border: 1px solid black;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.name{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.price{
+    font-size: 40px;
+    background-color: white;
+    border-radius: 55px;
+}
+
+.boton{
+    margin-right: 8px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(198, 33, 88);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+/* ITEM DETAIL */
+  
+.cartaDetail{
+    background-color: pink;
+    border: 8px solid black;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 550px;
+    height: 610px;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+
+.nameDetail{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.priceDetail{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(196, 83, 83);
+    width: 90px;
+    border-radius: 20px;
+    margin-left: 190px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.stockDetail{
+    margin-top: 20px;
+    background-color: rgb(196, 83, 83);
+    width: 135px;
+    border-radius: 20px;
+    margin-left: 170px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.description{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.imgDetail{
+    margin-left: 140px;
+    width: 350px;
+    height: 350px;
+}
+
+.linkCarrito{
+    background-color: rgb(228, 48, 48);
+    padding-left: 20px;
+    margin-right: 20px;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase; 
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.linkCarrito:hover{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* CART */
+.cartaCart{
+    background-color: rgba(118, 6, 60, 0.72);
+    width: 600px;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+    height: 600px;
+}
+
+.cartName{
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 30px;
+}
+
+.cartPrice{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 260px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    width: 90px;
+}
+
+.cartStock{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 230px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    width: 140px;
+}
+
+.cartImg{
+    margin-left: 180px;
+}
+
+.cartq{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 30px;
+    font-weight: 800;
+
+}
+
+.cartSub{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 30px;
+    font-weight: 800;
+}
+
+.deleteProduct{
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-left: 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(198, 33, 88);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.fondo{
+    background-color: rgb(146, 15, 100);
+    width: 600px;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+    height: 150px;
+}
+
+.total{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 40px;
+    font-size: 40px;
+    margin-left: 190px;
+}
+
+.deleteAll{
+    margin-right: 8px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(198, 33, 88);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.titleCart{
+    font-size: 45px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+} 
+
+.cobertor{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 50px;
+}
+
+.linkCart{
+    text-decoration: none;
+    color: black;
+}
+
+.linkCart :hover{
+    background-color: rgba(203, 26, 91, 0.9);
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+/* FORM */
+.form{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 400px;
+}
+
+.formInput{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(189, 7, 125);
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 150px;
+}
