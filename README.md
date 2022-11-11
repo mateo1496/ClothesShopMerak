@@ -33,3 +33,6 @@ https://github.com/mateo1496/ClothesShopMerak.git
 
 
 Realizado por Mateo Bertello (https://github.com/mateo1496/ClothesShopMerak.git)
+
+###DEPLOY
+- [deploy](https://clothes-shop-merak.vercel.app/) Link del proyecto en Deploy
